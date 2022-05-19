@@ -1,0 +1,112 @@
+/**************************************************************
+    SITE WIDE
+**************************************************************/
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    background-color: rgb(251, 240, 220);
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(48, 66, 121);
+}
+
+h2 {
+    font-size: 22px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+/**************************************************************
+    HEADING
+**************************************************************/
+
+#heading-left {
+    display: inline-block;
+    width: 59%;
+}
+
+#heading-right {
+    display: inline-block;
+    width: 39%;
+}
+
+#job-title {
+    margin-top: -24px;
+}
+
+/**************************************************************
+    SUB-HEADINGS
+**************************************************************/
+
+.subheadings-left {
+    display: inline-block;
+    vertical-align: top;   
+    width: 25%;
+}
+
+.subheadings-right {
+    display: inline-block;
+    width: 74%;
+}
+
+/**************************************************************
+    WORK EXPERIENCE
+**************************************************************/
+
+.work-left {
+    display: inline-block;
+    vertical-align: top;   
+    width: 75%;
+}
+
+.work-left h5 {
+    margin-top: -24px;
+}
+
+.work-right {
+    display: inline-block;
+    width: 24%;
+}
+
+.work-item p {
+    margin-top: 0px;
+}
+
+.work-item hr {
+    margin-top: 30px;
+}
+
+/**************************************************************
+    EDUCATION
+**************************************************************/
+
+#education td {
+    padding-top: 20px;
+}
